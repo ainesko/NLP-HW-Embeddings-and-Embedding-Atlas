@@ -1,2 +1,2 @@
 # NLP-HW-Embeddings-and-Embedding-Atlas
-DNA Sequence Embeddings with DNABERT-S
+This project computes embeddings for DNA sequences using the DNABERT-S model and prepares them for visualization in Embedding Atlas.
