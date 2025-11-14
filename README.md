@@ -38,3 +38,22 @@ model = AutoModel.from_pretrained("zhihan1996/DNABERT-S", trust_remote_code=True
 Runtime → Restart session
 
 ### 4. Now run the entire notebook sequentially (!!!comment the second cell!!!)
+
+
+## Output Format
+
+The generated .parquet file contains:
+
+* _id_ - Sequence identifier
+
+* _sequence_ - DNA sequence string
+
+* _embedding_ - vector (list of floats)
+
+* _label_ - Taxonomic classification
+
+* _projection_x, projection_y_ - 2D PCA coordinates
+
+## Sample Data
+
+_embeddings_1000.parquet_ contains 1000 marine microbiome sequences with pre-computed DNABERT-S embeddings and PCA projections.
