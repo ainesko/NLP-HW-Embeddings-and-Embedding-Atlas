@@ -11,13 +11,13 @@ pip install -r requirements.txt
 ###  2. Run the notebook:
 * Open embed.ipynb in Google Colab
 * Follow the execution steps below
-* Output: embeddings_full.parquet ready for Atlas (in this repository you can find a embeddings_1000.parquet -- small dataset for visualization)
+* Output: _embeddings_full.parquet_ ready for Atlas (in this repository you can find a _embeddings_1000.parquet_ -- small dataset for visualization)
 
 ###  3. Visualize in Embedding Atlas:
 
 * [Visit Embedding Atlas site](https://apple.github.io/embedding-atlas/upload/)
 * Upload .parquet file
-* Use precomputed projection_x/projection_y, then color by label
+* Use precomputed _projection_x/projection_y_, then color by label
 
 ## Execution steps for Google Colab
 
